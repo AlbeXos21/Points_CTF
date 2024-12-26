@@ -1,0 +1,41 @@
+.Boton:hover{
+    background-color: black !important; /* Cambia el fondo al pasar el ratón */
+    color: white !important; /* Cambia el color del texto al pasar el ratón */
+    transform: scale(1.05); /* Efecto de ampliación */
+    transition: transform 0.5s ease, background-color 0.5s ease, color 0.5s ease;
+}
+
+
+.lista_opciones {
+    display: flex; /* Cambiar flexbox por flex para que funcione correctamente */
+    flex-direction: column; /* Alinear los elementos en columna */
+    position: absolute; /* Permite mover la lista a cualquier lugar */
+    top: 50px; /* Arriba de la página */
+    right: 30px; /* Alineada a la derecha */
+    width: 175px;
+    padding: 0;
+    list-style: none; /* Elimina los puntos de lista */
+    background-color: white; /* Fondo de la lista */
+    border-radius: 30px; /* Bordes redondeados */
+    z-index: 1000;
+}
+
+.lista_opciones li {
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-opcion {
+    width: 100%; /* Ajusta al tamaño del contenedor */
+    font-size: 1.2em;
+    
+  }
+  
+.boton-opcion:hover {
+    background-color: black !important; /* Cambia el fondo al pasar el ratón */
+    color: white !important; /* Cambia el color del texto al pasar el ratón */
+    transform: scale(1.05); /* Efecto de ampliación */
+    transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+  }
